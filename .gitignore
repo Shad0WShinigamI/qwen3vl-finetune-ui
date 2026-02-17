@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Data / runtime artifacts (contain user datasets, models, DB)
+/data/
+*.csv
+*.db
+
+# Unsloth compiled cache
+unsloth_compiled_cache/
+
+# Claude Code config
+.claude/
+
+# Frontend build + deps
+frontend/node_modules/
+frontend/dist/
+
+# OS junk
+*Zone.Identifier
+*:Zone.Identifier
+.DS_Store
+Thumbs.db
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Editor configs
+.vscode/
+.idea/
+
+# Logs
+*.log
